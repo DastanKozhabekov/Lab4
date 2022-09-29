@@ -1,5 +1,3 @@
-const chk = document.getElementById('chk');
-
-chk.addEventListener('change', ()=>{
+function dark(){
     document.body.classList.toggle('dark')
-})
+}

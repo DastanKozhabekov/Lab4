@@ -194,10 +194,12 @@ body{
     margin-left: 17em;
     margin-right: 15em;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    transition: .3s;
 }
 
 .dark{
     background-color: #292C35;
+    transition: .3s;
 }
 .dark_mode_button{
     right: 0;

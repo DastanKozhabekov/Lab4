@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<title>Document</title>
 </head>
 <style type="text/css">
@@ -163,23 +167,45 @@
 }
 </style>
 <body>
-<form>
-	<p class="p1">Welcome !</p>
-	<p class="p2">Sign in to</p>
-	<p class="p3">Lorem ipsum is simply</p>
-	<p class="p3">User name</p>
-	<input type="text" name="" value="Enter your user name">
-	<p class="p3">Password</p>
-	<input type="text" name="" value="Enter your password">
-<div class="inl">
-	<input class="checkbox" type="checkbox" name="">
-	<p class="p5">Remembr me</p>
-	<p class="p6">forgot password?</p>
-</div>
-	<button>Login</button>
-	<p class="p4">Don`y have an Account ? <a href="register.html">Register</a></p>
-</form>	
-<div class="img"><img src="1.PNG"></div>
+	<div class="modal">
 
+	</div>
+	<form>
+		<p class="p1">Welcome !</p>
+		<p class="p2">Sign in to</p>
+		<p class="p3">Lorem ipsum is simply</p>
+		<p class="p3">User name</p>
+		<input type="text" name="" value="Enter your user name">
+		<p class="p3">Password</p>
+		<input type="text" name="" value="Enter your password">
+	<div class="inl">
+		<input class="checkbox" type="checkbox" name="">
+		<p class="p5">Remembr me</p>
+		<p class="p6">forgot password?</p>
+	</div>
+	<div class="container">
+		<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Log in</button>
+	  
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+		  <div class="modal-dialog modal-sm">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h4 class="modal-title">Response</h4>
+			  </div>
+			  <div class="modal-body">
+				<p>Успешная авторизация</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</form>	
+	<div class="img"><img src="1.PNG"></div>
+	
 </body>
 </html>
